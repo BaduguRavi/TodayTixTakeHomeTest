@@ -1,0 +1,54 @@
+
+/* Class = "UINavigationItem"; title = "Select Payment Method"; ObjectID = "0lm-yz-fpQ"; */
+"0lm-yz-fpQ.title" = "Select Payment Method";
+
+/* Class = "UILabel"; text = "CVV"; ObjectID = "0pN-dS-ByE"; */
+"0pN-dS-ByE.text" = "CVV";
+
+/* Class = "UILabel"; text = "Number"; ObjectID = "4kx-Ko-5BI"; */
+"4kx-Ko-5BI.text" = "Number";
+
+/* Class = "UILabel"; text = "Country"; ObjectID = "7f2-Ra-qq8"; */
+"7f2-Ra-qq8.text" = "Country";
+
+/* Class = "UITextField"; placeholder = "1234 5678 1234 5678"; ObjectID = "A9E-NB-KDr"; */
+"A9E-NB-KDr.placeholder" = "1234 5678 1234 5678";
+
+/* Class = "UILabel"; text = "Or enter below:"; ObjectID = "Azu-jz-Cwj"; */
+"Azu-jz-Cwj.text" = "Or enter below:";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "K5A-gx-vXW"; */
+"K5A-gx-vXW.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Amex ending in 1234"; ObjectID = "LYX-KA-2Q4"; */
+"LYX-KA-2Q4.text" = "Amex ending in 1234";
+
+/* Class = "UITextField"; placeholder = "12345"; ObjectID = "QeU-6M-Jy4"; */
+"QeU-6M-Jy4.placeholder" = "12345";
+
+/* Class = "UIButton"; normalTitle = "Scan your card"; ObjectID = "Sg6-Np-mhJ"; */
+"Sg6-Np-mhJ.normalTitle" = "Scan your card";
+
+/* Class = "UILabel"; text = "TodayTix is certified PCI-compliant.\nPayments are processed securely through our partners."; ObjectID = "d9X-VP-OvJ"; */
+"d9X-VP-OvJ.text" = "TodayTix is certified PCI-compliant.\nPayments are processed securely through our partners.";
+
+/* Class = "UITextField"; placeholder = "1234"; ObjectID = "eSn-WP-lUE"; */
+"eSn-WP-lUE.placeholder" = "1234";
+
+/* Class = "UIViewController"; title = "Add Credit Card"; ObjectID = "gKV-4Z-dDU"; */
+"gKV-4Z-dDU.title" = "Add Credit Card";
+
+/* Class = "UILabel"; text = "Select"; ObjectID = "ghT-ke-xW6"; */
+"ghT-ke-xW6.text" = "Select";
+
+/* Class = "UILabel"; text = "Zip"; ObjectID = "hQR-cs-dKa"; */
+"hQR-cs-dKa.text" = "Zip";
+
+/* Class = "UITextField"; text = "USA"; ObjectID = "lpg-7R-2z6"; */
+"lpg-7R-2z6.text" = "USA";
+
+/* Class = "UITextField"; placeholder = "MM/YY"; ObjectID = "o37-Pi-A1P"; */
+"o37-Pi-A1P.placeholder" = "MM/YY";
+
+/* Class = "UILabel"; text = "Expires"; ObjectID = "rWz-6z-Jos"; */
+"rWz-6z-Jos.text" = "Expires";

@@ -1,0 +1,32 @@
+{
+    "code": 200,
+    "data": {
+        "_type": "Location",
+        "id": 1,
+        "abbr": "NYC",
+        "allowPassbook": true,
+        "appBanner": null,
+        "appLaunchImageUrl": null,
+        "appLaunchVideoUrl": null,
+        "currencyCode": "USD",
+        "currencySymbol": "$",
+        "displayName": "NYC",
+        "enableDiscover": true,
+        "inRangeDistanceKm": 75,
+        "includeFees": false,
+        "insiderHeaderImageUrl": "https://todaytix-insider.imgix.net/nyc.png",
+        "latitude": 40.7641667,
+        "locale": "en_US",
+        "longitude": -73.9563889,
+        "mapInitialRadiusKm": 3,
+        "name": "New York",
+        "referralDiscount": 10,
+        "regionCode": "US",
+        "seoCountryName": "us",
+        "seoName": "nyc",
+        "tileImageUrl": "https://todaytix.imgix.net/web-location-nyc.jpg",
+        "timezone": "America/New_York",
+        "webBanner": null
+    },
+    "pagination": null
+}

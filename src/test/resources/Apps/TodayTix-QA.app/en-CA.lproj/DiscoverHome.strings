@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; accessibilityHint = "Change current location"; ObjectID = "92U-Ej-eFw"; */
+"92U-Ej-eFw.accessibilityHint" = "Change current location";
+
+/* Class = "UIButton"; normalTitle = "New York"; ObjectID = "92U-Ej-eFw"; */
+"92U-Ej-eFw.normalTitle" = "New York";
+
+/* Class = "UIButton"; accessibilityHint = "Change current location"; ObjectID = "9DP-sG-vOd"; */
+"9DP-sG-vOd.accessibilityHint" = "Change current location";
+
+/* Class = "UIButton"; normalTitle = "New York"; ObjectID = "9DP-sG-vOd"; */
+"9DP-sG-vOd.normalTitle" = "New York";
+
+/* Class = "UIButton"; accessibilityLabel = "Search"; ObjectID = "IH6-4q-4OH"; */
+"IH6-4q-4OH.accessibilityLabel" = "Search";
+
+/* Class = "UIButton"; accessibilityLabel = "Search"; ObjectID = "IIM-UT-dpl"; */
+"IIM-UT-dpl.accessibilityLabel" = "Search";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "IIM-UT-dpl"; */
+"IIM-UT-dpl.normalTitle" = "Search";
+
+/* Class = "UILabel"; text = "theater in"; ObjectID = "ILC-kN-THk"; */
+"ILC-kN-THk.text" = "TodayTix in";
+
+/* Class = "UILabel"; text = "Sorry, something went wrong."; ObjectID = "fBx-KL-Akh"; */
+"fBx-KL-Akh.text" = "Sorry, something went wrong.";
+
+/* Class = "UITabBarItem"; title = "Discover"; ObjectID = "mNG-nb-R3g"; */
+"mNG-nb-R3g.title" = "Discover";
+
+/* Class = "UILabel"; text = "Discover"; ObjectID = "rUa-ya-Q20"; */
+"rUa-ya-Q20.text" = "Discover";

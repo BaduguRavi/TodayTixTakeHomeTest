@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Rate It!"; ObjectID = "4"; */
+"4.normalTitle" = "Rate It!";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "5"; */
+"5.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "How would you rate this show?"; ObjectID = "7"; */
+"7.text" = "How would you rate this show?";

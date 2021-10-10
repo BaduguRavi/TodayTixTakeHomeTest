@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; accessibilityLabel = "Best Available Learn More"; ObjectID = "4id-VN-RxF"; */
+"4id-VN-RxF.accessibilityLabel" = "Best Available Learn More";
+
+/* Class = "UILabel"; text = "Agree and use"; ObjectID = "IJs-wV-FE2"; */
+"IJs-wV-FE2.text" = "Agree and use";
+
+/* Class = "UILabel"; text = "2 x $49 per ticket = $98 (+ fee: $12.50/ticket)"; ObjectID = "Lbh-Nf-xcL"; */
+"Lbh-Nf-xcL.text" = "2 x $49 per ticket = $98 (+ fee: $12.50/ticket)";
+
+/* Class = "UIButton"; accessibilityLabel = "Concierge Learn More"; ObjectID = "Qxb-yL-NIe"; */
+"Qxb-yL-NIe.accessibilityLabel" = "Concierge Learn More";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "W1d-D0-2Ln"; */
+"W1d-D0-2Ln.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "CHECK OUT"; ObjectID = "b12-Tj-v2N"; */
+"b12-Tj-v2N.normalTitle" = "CHECK OUT";
+
+/* Class = "UILabel"; text = "You saved $99 on your tickets!"; ObjectID = "dfE-oR-z2B"; */
+"dfE-oR-z2B.text" = "You saved $99 on your tickets!";
+
+/* Class = "UILabel"; text = "By using Apple Pay, you are agreeing to our Buyer Guarantee."; ObjectID = "fV9-TS-mOD"; */
+"fV9-TS-mOD.text" = "By using Apple Pay, you are agreeing to our Buyer Guarantee.";
+
+/* Class = "UILabel"; text = "Orchestra"; ObjectID = "sUy-gs-OGb"; */
+"sUy-gs-OGb.text" = "Orchestra";
+
+/* Class = "UILabel"; text = "Note: This is concierge show."; ObjectID = "xVJ-U3-lbS"; */
+"xVJ-U3-lbS.text" = "Note: This is concierge show.";

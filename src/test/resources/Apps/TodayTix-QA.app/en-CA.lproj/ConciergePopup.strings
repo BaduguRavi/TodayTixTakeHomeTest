@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Please see your confirmation e-mail\nfor details and exact pickup locations."; ObjectID = "6UH-A5-8BU"; */
+"6UH-A5-8BU.text" = "Please see your confirmation e-mail\nfor details and exact pickup locations.";
+
+/* Class = "UIButton"; normalTitle = "Got It!"; ObjectID = "ZJi-1q-f2y"; */
+"ZJi-1q-f2y.normalTitle" = "Got It!";
+
+/* Class = "UILabel"; text = "Simply meet your TodayTix Concierge agent outside of the theatre anytime beginning 30 minutes prior to showtime."; ObjectID = "nW0-VN-iZd"; */
+"nW0-VN-iZd.text" = "Simply meet your TodayTix Concierge agent outside of the theatre anytime beginning 30 minutes prior to showtime.";
+
+/* Class = "UILabel"; text = "Don’t wait in line at the box office"; ObjectID = "sYG-bv-1A4"; */
+"sYG-bv-1A4.text" = "Don’t wait in line at the box office";

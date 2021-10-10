@@ -1,0 +1,83 @@
+# enable some rules that are disabled by default
+# (rules commented out should be enabled, but will require significant manual fixing)
+opt_in_rules:
+ - closure_end_indentation
+ - closure_spacing
+ - collection_alignment
+ - explicit_init
+ - fatal_error_message
+ - first_where
+ - implicit_return
+ - literal_expression_end_indentation
+ - multiline_literal_brackets
+ - multiline_parameters
+ - multiline_parameters_brackets
+ - overridden_super_call
+ - prohibited_super_call
+ - redundant_nil_coalescing
+ - unneeded_parentheses_in_closure_argument
+ - unused_private_declaration
+
+# disable some rules that are enabled by default
+disabled_rules:
+ - line_length
+ - function_parameter_count
+ - implicit_getter # disabled because it was throwing false positives
+ - identifier_name
+ - force_try
+ - empty_enum_arguments # disabled because of false positives with functions with 0 parameters
+ - multiple_closures_with_trailing_closure # multiple trailing closures is great
+ 
+# paths to ignore during linting
+excluded:
+ - Pods
+ - vendor
+ - TodayTix Tests/GeneratedMocks.swift
+ - TodayTixCoreTests/GeneratedMocks.swift
+
+# Custom rules
+custom_rules:
+  ns_localized_string:
+    name: "NSLocalizedString"
+    regex: "NSLocalizedString"
+    message: "Use localized(_:comment) or TTLocalizedString(_:comment:bundle) instead of NSLocalizedString"
+    severity: error
+  unsafe_uiimage:
+    name: "Unsafe UIImage Initializer"
+    regex: "UIImage\\(named:"
+    message: "Prefer using UIImage.safelyNamed(_:inBundleForClass:) instead of UIImage(named:)"
+  stackview_addsubview:
+    name: "UIStackView addSubview"
+    regex: "(stack|Stack|stackView|StackView)\\.(addSubview)"
+    capture_group: 2
+    message: "Are you sure you didn't mean to use addArrangedSubview?"
+    severity: error
+  dispatch_main_sync:
+    name: "Main Queue Synchronous Dispatch"
+    regex: "DispatchQueue\\.main\\.(sync)"
+    capture_group: 1
+    message: "Dispatching synchronously to the main queue can cause a deadlock. Use async instead of sync."
+    severity: error
+
+ 
+# Rule settings
+cyclomatic_complexity:
+  - 15
+file_length:
+  warning: 650
+  error: 1200
+force_cast: warning
+function_body_length:
+  warning: 60
+large_tuple:
+  - 3
+nesting:
+  type_level: 2
+overridden_super_call:
+  excluded:
+    - setUp()
+    - setUpWithError()
+    - tearDown()
+    - tearDownWithError()
+type_body_length:
+  error: 500

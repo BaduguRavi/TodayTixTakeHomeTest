@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Please pick your city below."; ObjectID = "Lvs-KO-yj0"; */
+"Lvs-KO-yj0.text" = "Please pick your city below.";
+
+/* Class = "UIButton"; normalTitle = "Sure!"; ObjectID = "R58-31-6ET"; */
+"R58-31-6ET.normalTitle" = "Sure!";
+
+/* Class = "UIButton"; normalTitle = "Not now, thanks"; ObjectID = "bAZ-IV-clN"; */
+"bAZ-IV-clN.normalTitle" = "Not now, thanks";
+
+/* Class = "UILabel"; text = "Mind sharing your location?"; ObjectID = "ck6-FB-0iI"; */
+"ck6-FB-0iI.text" = "Mind sharing your location?";
+
+/* Class = "UILabel"; text = "We can automatically update your city view."; ObjectID = "nCv-vY-4oI"; */
+"nCv-vY-4oI.text" = "We can automatically update your city view.";

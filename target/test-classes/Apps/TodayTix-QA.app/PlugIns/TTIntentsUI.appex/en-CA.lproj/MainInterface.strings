@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Winners pay {price} per guest. Tickets are non-transferable."; ObjectID = "0Rv-fW-oVn"; */
+"0Rv-fW-oVn.text" = "Winners pay {price} per guest. Tickets are non-transferable.";
+
+/* Class = "UILabel"; text = "Number of Guests:"; ObjectID = "Ilr-lA-D3Z"; */
+"Ilr-lA-D3Z.text" = "Number of Guests:";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "UfE-Oi-EZJ"; */
+"UfE-Oi-EZJ.text" = "2";

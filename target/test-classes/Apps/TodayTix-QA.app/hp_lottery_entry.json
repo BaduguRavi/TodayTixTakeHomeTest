@@ -1,0 +1,143 @@
+{
+    "code":201,
+    "data":[
+        {
+            "_type":"LotteryEntry",
+            "id":5598955,
+            "lotteryId":11570,
+            "email":"daks-7@mail.ru",
+            "countryCode":1,
+            "phone":"(347) 749-2770",
+            "regionCode":"US",
+            "pickupName":"Danil Piletski",
+            "show": {
+                "_type":"Show",
+                "id":3581,
+                "name":"Sweeney Todd",
+                "theater": {
+                    "name":"Barrow Street Theatre",
+                    "address":{
+                        "_type":"Address",
+                        "city":"New York",
+                        "state":"NY",
+                        "street1":
+                        "27 Barrow Street",
+                        "street2":null,
+                        "zip":"10014",
+                        "latitude":40.7323276,
+                        "longitude":-74.0030807
+                    }
+                },
+                "posterUrl":"https://todaytix-qa.imgix.net/1485547487601_SWN_P122_TodayTix_480x720_L1.jpg",
+                "timezone":"America/New_York",
+                "partner":null
+            },
+            "showDatetime":"2018-02-01T19:30:00.000-05:00",
+            "status":"LOTTERY_PENDING",
+            "numSeats":2,
+            "confirmationText":"You have been entered for a chance to win 2 to SWEENEY TODD!",
+            "increaseChanceTitle":"Want to DOUBLE or TRIPLE your odds?",
+            "increaseChanceText":"Gain an additional entry each for sharing on Facebook and Twitter below!",
+            "winnerClaimText":"{winnerClaimText}",
+            "winnerNotificationText":"{winnerNotificationText}",
+            "receiptTexts":"",
+            "customerServiceInfo":{
+                "textPhone":"",
+                "callPhone":"+1 (855) 464-9778",
+                "email":"support@todaytix.com"
+            },
+            "allowChangePickupName":true,
+            "allowChangeEmail":true,
+            "shareConfig":{
+                "_type":"SocialShareConfig",
+                "facebook":{
+                    "_type":"FacebookPost",
+                    "url":"http://www.todaytix.com/nyc/3581-sweeney-todd/lottery"
+                },
+                "twitter":{
+                    "_type":"Tweet",
+                    "message":"I entered the @sweeneytoddnyc Lottery for a chance to win $39 tickets on @TodayTix! Enter here: http://go.todaytix.com/SweeneyToddLottery"
+                },
+                "email": {
+                    "_type":"MailMessage",
+                    "subject":"",
+                    "body":""
+                },
+                "sms":{
+                    "_type":"SmsMessage",
+                    "message":""
+                }
+            },
+            "sharedOnFacebook":false,
+            "sharedOnTwitter":false
+        },
+        {
+            "_type":"LotteryEntry",
+            "id":5598956,
+            "lotteryId":11570,
+            "email":"daks-7@mail.ru",
+            "countryCode":1,
+            "phone":"(347) 749-2770",
+            "regionCode":"US",
+            "pickupName":"Danil Piletski",
+            "show": {
+                "_type":"Show",
+                "id":3581,
+                "name":"Sweeney Todd",
+                "theater": {
+                    "name":"Barrow Street Theatre",
+                    "address":{
+                        "_type":"Address",
+                        "city":"New York",
+                        "state":"NY",
+                        "street1":
+                        "27 Barrow Street",
+                        "street2":null,
+                        "zip":"10014",
+                        "latitude":40.7323276,
+                        "longitude":-74.0030807
+                    }
+                },
+                "posterUrl":"https://todaytix-qa.imgix.net/1485547487601_SWN_P122_TodayTix_480x720_L1.jpg",
+                "timezone":"America/New_York",
+                "partner":null
+            },
+            "showDatetime":"2018-02-01T19:30:00.000-05:00",
+            "status":"LOTTERY_PENDING",
+            "numSeats":2,
+            "confirmationText":"You have been entered for a chance to win 2 to SWEENEY TODD!",
+            "increaseChanceTitle":"Want to DOUBLE or TRIPLE your odds?",
+            "increaseChanceText":"Gain an additional entry each for sharing on Facebook and Twitter below!",
+            "receiptTexts":"",
+            "customerServiceInfo":{
+                "textPhone":"",
+                "callPhone":"+1 (855) 464-9778",
+                "email":"support@todaytix.com"
+            },
+            "allowChangePickupName":true,
+            "allowChangeEmail":true,
+            "shareConfig":{
+                "_type":"SocialShareConfig",
+                "facebook":{
+                    "_type":"FacebookPost",
+                    "url":"http://www.todaytix.com/nyc/3581-sweeney-todd/lottery"
+                },
+                "twitter":{
+                    "_type":"Tweet",
+                    "message":"I entered the @sweeneytoddnyc Lottery for a chance to win $39 tickets on @TodayTix! Enter here: http://go.todaytix.com/SweeneyToddLottery"
+                },
+                "email": {
+                    "_type":"MailMessage",
+                    "subject":"",
+                    "body":""
+                },
+                "sms":{
+                    "_type":"SmsMessage",
+                    "message":""
+                }
+            },
+            "sharedOnFacebook":false,
+            "sharedOnTwitter":false
+        }
+    ]
+}

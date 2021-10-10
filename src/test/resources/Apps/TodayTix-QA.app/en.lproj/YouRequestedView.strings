@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "(Best Available)"; ObjectID = "4id-VN-RxF"; */
+"4id-VN-RxF.normalTitle" = "(Best Available)";
+
+/* Class = "UILabel"; text = "Wednesday, August 8 at 7:00 PM"; ObjectID = "Jrj-cy-iGi"; */
+"Jrj-cy-iGi.text" = "Wednesday, August 8 at 7:00 PM";
+
+/* Class = "UILabel"; text = "2 x $49 per ticket = $98"; ObjectID = "Lbh-Nf-xcL"; */
+"Lbh-Nf-xcL.text" = "2 x $49 per ticket = $98";
+
+/* Class = "UIButton"; normalTitle = "(plus $20 in fees) "; ObjectID = "OZA-4u-M4N"; */
+"OZA-4u-M4N.normalTitle" = "(plus $20 in fees) ";
+
+/* Class = "UIButton"; normalTitle = "CHECK OUT"; ObjectID = "b12-Tj-v2N"; */
+"b12-Tj-v2N.normalTitle" = "CHECK OUT";
+
+/* Class = "UILabel"; text = "You saved $99 on your tickets!"; ObjectID = "dfE-oR-z2B"; */
+"dfE-oR-z2B.text" = "You saved $99 on your tickets!";
+
+/* Class = "UILabel"; text = "You requested:"; ObjectID = "ptu-d6-Ft3"; */
+"ptu-d6-Ft3.text" = "You requested:";
+
+/* Class = "UILabel"; text = "Orchestra"; ObjectID = "sUy-gs-OGb"; */
+"sUy-gs-OGb.text" = "Orchestra";

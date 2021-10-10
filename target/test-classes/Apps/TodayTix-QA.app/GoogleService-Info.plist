@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>614435433779-pco5np79rctdjcb5phkc88e3o1o2gpn3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.614435433779-pco5np79rctdjcb5phkc88e3o1o2gpn3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCT-P8GmIXnXcYDKo8n0f3VzxE4j7Sg1xo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>614435433779</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.todaytix.TodayTix-QA</string>
+	<key>PROJECT_ID</key>
+	<string>todaytix-qa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>todaytix-qa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:614435433779:ios:95579654933201b881e246</string>
+	<key>DATABASE_URL</key>
+	<string>https://todaytix-qa.firebaseio.com</string>
+</dict>
+</plist>

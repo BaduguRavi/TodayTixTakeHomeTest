@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Seats IO Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="legacy-seats-io-seating-chart-wrapper.min.js"></script>
+    </head>
+
+    <body style="margin: 0;">
+        <div style="width:100vw; height:100vh;" id="seat-selector"></div>
+
+        <script type="text/javascript" src="https://cdn.seatsio.net/chart.js"></script>
+        <script>
+
+            const extraConfig = {
+                inventoryMap: {},
+                min: 0,
+                max: 0,
+                orphanText: 'Please, do not leave empty seats',
+                hideTooltip: true
+            };
+
+            function setupChart( eventId, publicKey ) {
+                this.seatingChart = new window.SeatsIOSeatingChart(
+                    'seat-selector', // div id
+                    eventId,
+                    publicKey,
+                    {
+                        holdOnSelect: false, // used for testing purposes
+                        hideTooltip: true,
+                        extraConfig: extraConfig
+                    },
+                    {
+                        onChartRendered: function onChartRendered(chart) {
+                            window.webkit.messageHandlers.chartRendered.postMessage("");
+                        },
+                        onChartRenderingFailed: function onChartRenderingFailed(chart) {
+                            window.webkit.messageHandlers.chartRenderingFailed.postMessage("");
+                        },
+                        onObjectClicked: function onObjectClicked(object) {
+                            // platform logic here
+                        },
+                        onObjectSelected: function onObjectSelected(object, selectedTicketType) {
+                            var seat = createiOSSeat(object);
+                            window.webkit.messageHandlers.selectSeat.postMessage(seat);
+                        },
+                        onObjectDeselected: function onObjectDeselected(object, selectedTicketType) {
+                            var seat = createiOSSeat(object);
+                            window.webkit.messageHandlers.deSelectSeat.postMessage(seat);
+                        },
+                        onObjectMouseOver: function onObjectMouseOver(object) {
+                            // platform logic here
+                        },
+                        onObjectMouseOut: function onObjectMouseOut(object) {
+                            // platform logic here
+                        },
+                        onSelectedObjectBooked: function onSelectedObjectBooked(object) {
+                            // platform logic here
+                        },
+                        onBestAvailableSelected: function onBestAvailableSelected(objects, nextToEachOther) {
+                            // platform logic here
+                        },
+                        onBestAvailableSelectionFailed: function onBestAvailableSelectionFailed() {
+                            // platform logic here
+                        },
+                        onScrolledOutOfBoundsVertically: function onScrolledOutOfBoundsVertically(amount) {
+                            // platform logic here
+                        },
+                        onHoldSucceeded: function onHoldSucceeded(objects) {
+                            // platform logic here
+                        },
+                        onHoldFailed: function onHoldFailed(objects) {
+                            // platform logic here
+                        },
+                        onReleaseHoldSucceeded: function onReleaseHoldSucceeded(objects) {
+                            // platform logic here
+                        },
+                        onReleaseHoldFailed: function onReleaseHoldFailed(objects) {
+                            // platform logic here
+                        },
+                        onSelectionInvalid: function onSelectionInvalid(violations) {
+                            // platform logic here
+                        }
+                    },
+                );
+
+                function createiOSSeat(object) {
+                    console.log(object);
+                    var seat = {
+                        label: object.label,
+                        section: object.labels.section,
+                        row: object.labels.parent,
+                        seat: object.labels.own,
+                        priceValue: object.extraData.priceValue,
+                        displayPrice: object.extraData.displayPrice,
+                        displayOriginalPrice: object.extraData.displayOriginalPrice,
+                        discountValue: object.extraData.discountValue,
+                        seatGroup: object.extraData.seatGroup,
+                        provider: object.extraData.provider,
+                        feeText: object.extraData.feeText
+                    };
+                    return seat;
+                }
+
+                this.seatingChart.render();
+            }
+
+        </script>
+    </body>
+
+</html>
+
